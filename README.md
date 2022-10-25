@@ -11,8 +11,8 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
 #### 1.1 Create and activate a new virtual environment
 
 ```
-conda create -n deepse python=3.8
-conda activate deepse
+conda create -n senet python=3.8
+conda activate senet
 ```
 
 
@@ -22,7 +22,7 @@ conda activate deepse
 (Required)
 
 ```
-git clone https://github.com/lhy0322/DeepSEQ
-cd DeepSEQ
+git clone https://github.com/lhy0322/SENet
+cd SENet
 python -m pip install -r requirements.txt
 ```
