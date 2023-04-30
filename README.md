@@ -26,3 +26,17 @@ git clone https://github.com/lhy0322/SENet
 cd SENet
 python -m pip install -r requirements.txt
 ```
+
+
+## 2. Step by step for training model
+### Step 1
+Use "crossvalid.py" file to pick the hyperparameters of SENet
+- *python crossvalid.py* 
+
+### Step 2
+Use "train.py" to train SENet model
+- *python train.py*
+
+### Step 3
+Use "predict.py" to predict super-enhancers
+- *python predict.py*
